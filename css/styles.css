@@ -13,3 +13,7 @@
 .col-md-4 h4 {
   margin-bottom: 12px;
 }
+
+.hearts, .diamonds {
+  color: red;
+}

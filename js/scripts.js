@@ -15,7 +15,7 @@ $(document).ready(function(){
 
   suits.forEach(function(suit){
     values.forEach(function(value){
-      $("#cards").append("<li>" + value + " of " + suit + "</li>");
+      $("#cards").append('<li class="' + suit.toLowerCase() + '">' + value + ' of ' + suit + '</li>');
     });
   });
 
