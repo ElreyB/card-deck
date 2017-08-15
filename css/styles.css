@@ -17,3 +17,14 @@
 .hearts, .diamonds {
   color: red;
 }
+
+.return {
+  display: block;
+  margin: auto;
+  width: 40%;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
